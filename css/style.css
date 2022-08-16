@@ -1,0 +1,295 @@
+*{margin: 0; padding: 0;}
+a{text-decoration: none; color: #61564e;}
+ul{list-style: none;}
+body{
+    color: #61564e;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+
+
+/* #header{
+    position:absolute; 
+    top:0; 
+    left:center;
+    background: url(../images/header_back.png)no-repeat center top;
+    z-index: 2;
+} */
+
+/* 
+#header .header_box{
+        width:100%;
+        height: 198px;
+        position:relative;
+    }
+
+.logo{
+    position:absolute;
+    top:55px;
+    left:50%;
+    margin-left:-124.5px;}
+
+.header_in{
+    margin: 0px auto;
+    width: 1320px;
+    height: 136px; 
+    
+}
+
+.top{position: absolute; top: 10px; right: 20%;}
+.top li{float: left; margin-left: 50px;}
+.nav{position: absolute; top: 80px;}
+.nav li{float: left; margin-right: 250px;}
+.nav li a{font-weight: bold;}
+.nav li:nth-child(2){margin-right: 524.27px;}
+.nav li:nth-child(4){margin-right: 0px;} */
+
+
+
+
+/* header */
+#header{
+    background: url(../images/header_back.png) no-repeat center top;
+    width: 100%;
+    height: 198px;
+}
+.header_in{
+    margin: auto;
+    width: 1320px;
+    height: 136px;
+    position: relative;
+}
+
+.top{
+    position: absolute;
+    top: 10px;
+    right: 0px;
+}
+.top li{float: left; margin-left: 80px;}
+
+.logo_main{
+    position: absolute;
+    width: 249px;
+    height: 127px;
+    top: 50px;
+    left: 50%;
+    margin-left: -124.5px;
+}
+
+.nav{
+    position: absolute;
+    top: 70px;
+    left: 0%;
+    width: 100%;
+}
+.nav li{float: left; width: 25%;}
+.nav li:nth-child(3){text-align: right;}
+.nav li:nth-child(4){text-align: right;}
+/* header------ */
+
+
+/* banner */
+#banner{height: 762px;}
+#banner img{
+    position: absolute;
+    width: 100%;
+    height: 824px;
+    top: 136px;
+    z-index: -1;
+}
+/* banner-------- */
+
+
+/* shop */
+#shop{
+    width: 1320px;
+    height: 820px;
+    margin: auto;
+    padding-top: 50px;
+    position: relative;
+}
+#shop h1{text-align: center; padding:30px 0 50px;}
+
+
+.shop_text{margin: 30px 0 20px; width:1320px; margin:0 auto;}
+
+.shop_text li{
+    float: left;
+    width:25%;
+    text-align: center;
+}
+
+.shop_text li a{display:block; padding: 30px 0; font-weight: bold;}
+
+.shop_pr{width:1320px; height: 660px; margin:0 auto;}
+.shop_pr li{float:left; width:309px; margin-right:28px;}
+
+.shop_pr li:last-child{margin-right:0;}
+
+.shop_pr li h2{
+    border-bottom: 2px solid #61564e;
+    padding: 10px 0 10px;
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+.shop_pr li h2 span{
+    font-size: 18px;
+    font-weight: 500;
+}
+.shop_pr li p{float: left; margin-right: 20px;}
+.more{
+    position: absolute;
+    left: 50%;
+    margin-left: -72.51px;
+    box-sizing: border-box;
+    padding: 10px 20px;
+    background-color: #efe5d9;
+    font-weight: bold;
+}
+
+
+/* event */
+#event{
+    margin: auto;
+    width: 1320px;
+    height: 800px;
+}
+#event h1{text-align: center; margin: 100px 0 60px;}
+#event ul li{float: left;}
+#event ul li:nth-child(2){margin: 0 28px;}
+
+
+/* review */
+#review{
+    margin: 0 auto;
+    width: 1320px;
+    height: 500px;
+}
+#review h1{text-align: center; margin: 80px 0 60px;}
+#review ul li{
+    float: left; 
+    margin-right: 28px;
+    position: relative;
+    width: 309px;
+    height: 357px;
+}
+#review ul li:nth-child(4){margin-right: 0;}
+
+/* 호버 */
+#review .box_h{
+    box-sizing: border-box;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.7);
+    width: 100%;
+    height: 40%;
+    padding: 10px 20px;
+    opacity: 0;
+    transition: all 0.5s;
+    font-weight: bold;
+}
+.box_h h3{border-bottom: 1px solid #61564e; padding-bottom: 10px; font-size: 18px;}
+.box_h p{padding-top: 10px; font-size: 14px;}
+#review img{display: block;}
+#review ul li:hover .box_h{opacity: 1;}
+
+
+/* myfruto */
+#fruto{
+    margin: auto;
+    width: 1320px;
+    height: 900px;
+}
+#fruto h1{text-align: center; margin: 80px 0 60px;}
+.text_fruto{
+    float: left;
+    width: 350px;
+    height: 313px;
+    text-align: center;
+    padding: 200px 0;
+}
+.text_fruto h2{
+    border-top: 1px solid #61564e;
+    border-bottom: 1px solid #61564e;
+    padding: 20px 0;
+    font-size: 40px;
+    line-height: 50px;
+}
+.text_fruto p{
+    margin: 100px 0;
+    font-weight: bold;
+}
+.text_fruto a{
+    box-sizing: border-box;
+    font-weight: bold;
+    padding: 10px 20px;
+    background-color: #efe5d9;
+}
+.img_fruto{
+    float: right;
+    width: 924px;
+    height: 713px;
+}
+
+
+/* guide */
+#guide{
+    margin: auto;
+    width: 1320px;
+    height: 500px;
+}
+#guide h1{text-align: center; margin: 80px 0 60px;}
+#guide ul li{
+    float: left;
+    width: 309px;
+    height: 357px;
+    margin-right: 28px;
+    position: relative;
+}
+#guide ul li:last-child{margin-right: 0;}
+
+#guide .box_b{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    opacity: 0;
+    transition: all 0.5s;
+}
+#guide img{display: block;}
+#guide .box_b h2{color: #fff; padding-top: 180px;}
+#guide ul li:hover .box_b{opacity: 1;}
+
+/* footer */
+#footer{
+    
+    background: url(../images/footer_back.jpg)no-repeat top center;
+    width: 100%;
+    height:188px;
+}
+
+
+.footer_in{
+    margin: auto;
+    width: 1320px;
+}
+
+.footer_logo{float:left; padding:20px 90px 20px 0;} /*추가함*/
+
+.foo{float: left; padding:50px 0;}
+.ter{float: right;padding:40px 0;}
+
+.ter .ter_in li{
+    float: left;
+    margin-left: 10px;
+    margin-bottom: 25px;
+}
+.icon li{
+    float: left;
+    margin-left: 10px;
+}
